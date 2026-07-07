@@ -48,6 +48,10 @@ Despite the exceptionally low loss, the model still exhibits classic vanilla RNN
 * `Seq2Seq_Attention.ipynb` - The final model with text cleaning and Global Attention (Phase 3).
 * `inference.py` - A universal, dynamic inference script for testing weights.
 
+### 💾 Download Model Weights
+Due to file size limits, the trained `.h5` model weights are not hosted directly in the source code repository. 
+You can download the weights for all three phases from the **[v1.0.0 Release Page](https://github.com/AmanBanik/Moogle_Translate/releases/tag/v1.0.0)**. Place the `.h5` files in the root directory alongside `inference.py` before running tests.
+
 ### How to Run Inference
 We provide a universal `inference.py` script. You do not need to rewrite code to test different sets of weights.
 
